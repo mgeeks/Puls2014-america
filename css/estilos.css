@@ -18,6 +18,7 @@ footer
 }
 footer p:first-child
 {
+    color: rgba(255,255,255,0.7);
     margin-bottom: 0;
     
 }
@@ -110,4 +111,77 @@ nav ul li a
     color: white;
     display: block;
     padding: 0.5em 0;
+}
+#contenido
+{
+    margin: 1em;
+    
+}
+#contenido .item
+{
+    margin-bottom: 2em;
+    background: white;
+    border-bottom: 3px solid #22BCE0;
+    min-height: 128px;
+    position: relative;
+}
+#contenido .item .autor_item
+{
+    color: gray;
+    
+}
+#contenido .item .datos_item
+{ 
+    text-align: right;
+    margin: 1em 1em 0 0;
+}
+#contenido .item .datos_item .tag_item
+{
+    background: #f4502a;
+    color: white;
+    display: inline-block;
+    padding: 0.2em;
+    text-decoration: none;
+    border-radius: 0.5em;
+    float: left;
+}
+#contenido .item .datos_item .fecha_item
+{
+    color: #AAA; 
+}
+#contenido .item .imagen_item
+{
+    float: left;
+    margin: 0 1em 0 0;
+}
+#contenido .item .imagen_item img
+{
+    width: 96px;
+}
+#contenido .item .titulo_item
+{
+    padding: 1em 1em 0 0;
+    font-size: 1.2em;
+    font-style: italic;
+}
+#contenido .item .titulo_item a
+{
+    color: gray;
+    text-decoration: none;    
+}
+#contenido .item .votacion
+{
+    border-radius: 0 0 0.5em 0.5em;
+    background: white;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 90%;
+    left: 5%;
+    margin-top: 3px; 
+}
+#contenido .item .votacion .comentarios_item,
+#contenido .item .votacion .guardar_item
+{
+    float: right;
 }
